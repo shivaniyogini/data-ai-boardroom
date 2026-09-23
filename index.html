@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Data & AI Boardroom</title>
+
+  <meta name="description"
+        content="The Data & AI Boardroom brings together leaders shaping the future of data, artificial intelligence and business.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #07111f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    nav {
+      width: 100%;
+      padding: 24px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .nav-links a {
+      color: #d7e1eb;
+      text-decoration: none;
+      margin-left: 30px;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 82vh;
+      display: flex;
+      align-items: center;
+      padding: 80px 8%;
+      background:
+        radial-gradient(circle at 80% 30%, rgba(0,188,212,.15), transparent 35%),
+        linear-gradient(135deg, #07111f, #0b1c31);
+    }
+
+    .hero-content {
+      max-width: 900px;
+    }
+
+    .eyebrow {
+      color: #55d6d0;
+      font-size: 13px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 7vw, 92px);
+      line-height: 1.02;
+      letter-spacing: -3px;
+      margin-bottom: 30px;
+    }
+
+    .hero p {
+      max-width: 720px;
+      font-size: 21px;
+      color: #b9c7d5;
+      margin-bottom: 38px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      background: #55d6d0;
+      color: #07111f;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 4px;
+    }
+
+    section {
+      padding: 100px 8%;
+    }
+
+    .section-label {
+      color: #55d6d0;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      font-size: 42px;
+      margin-bottom: 24px;
+    }
+
+    .intro {
+      max-width: 800px;
+      color: #b9c7d5;
+      font-size: 19px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: #0d1c2e;
+      border: 1px solid rgba(255,255,255,.08);
+      padding: 35px;
+      min-height: 250px;
+    }
+
+    .card span {
+      color: #55d6d0;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .card h3 {
+      font-size: 24px;
+      margin: 18px 0;
+    }
+
+    .card p {
+      color: #9fb0c0;
+    }
+
+    .about {
+      background: #f3f5f7;
+      color: #07111f;
+    }
+
+    .about .section-label {
+      color: #087f86;
+    }
+
+    .about p {
+      max-width: 800px;
+      font-size: 19px;
+      color: #425466;
+    }
+
+    .newsletter {
+      text-align: center;
+      background: #0b1c31;
+    }
+
+    .newsletter p {
+      color: #b9c7d5;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    footer {
+      padding: 35px 8%;
+      border-top: 1px solid rgba(255,255,255,.1);
+      color: #8393a4;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @media (max-width: 800px) {
+
+      .nav-links {
+        display: none;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        letter-spacing: -1px;
+      }
+
+      footer {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">THE DATA & AI BOARDROOM</div>
+
+  <div class="nav-links">
+    <a href="#conversations">Conversations</a>
+    <a href="#insights">Insights</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+
+
+<header class="hero">
+
+  <div class="hero-content">
+
+    <div class="eyebrow">
+      Data • Artificial Intelligence • Leadership
+    </div>
+
+    <h1>
+      Where Data, AI & Leadership Meet.
+    </h1>
+
+    <p>
+      Candid conversations with the leaders shaping how organizations
+      use data and artificial intelligence to transform business.
+    </p>
+
+    <a class="button" href="#conversations">
+      Enter the Boardroom
+    </a>
+
+  </div>
+
+</header>
+
+
+<section id="conversations">
+
+  <div class="section-label">Boardroom Conversations</div>
+
+  <h2>Conversations worth having.</h2>
+
+  <p class="intro">
+    Interviews with executives, technologists and innovators navigating
+    the opportunities—and realities—of data and AI.
+  </p>
+
+
+  <div class="cards">
+
+    <div class="card">
+      <span>Coming Soon</span>
+
+      <h3>The AI-Ready Enterprise</h3>
+
+      <p>
+        What leaders are learning as AI moves from experimentation
+        into real enterprise adoption.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <span>Coming Soon</span>
+
+      <h3>Who Owns AI?</h3>
+
+      <p>
+        CIO, CDO, CTO or the business? A conversation about leadership,
+        accountability and the changing AI operating model.
+      </p>
+    </div>
+
+
+    <div class="card">
+      <span>Coming Soon</span>
+
+      <h3>Can We Trust the Data?</h3>
+
+      <p>
+        Why data quality, governance and context are becoming even more
+        important in the age of AI.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="insights">
+
+  <div class="section-label">The Boardroom Brief</div>
+
+  <h2>What leaders need to know.</h2>
+
+  <p class="intro">
+    Sharp perspectives on data, AI, governance, technology and the
+    decisions shaping the modern enterprise.
+  </p>
+
+</section>
+
+
+<section id="about" class="about">
+
+  <div class="section-label">About</div>
+
+  <h2>Beyond the AI hype.</h2>
+
+  <p>
+    The Data & AI Boardroom is an independent platform for candid
+    conversations about how data and artificial intelligence are
+    changing organizations, leadership and business.
+
+    <br><br>
+
+    We bring together executives, practitioners and innovators to
+    explore what is actually working, what isn't, and what leaders
+    should be thinking about next.
+  </p>
+
+</section>
+
+
+<section class="newsletter">
+
+  <div class="section-label">Stay Informed</div>
+
+  <h2>Join the Boardroom.</h2>
+
+  <p>
+    Get conversations, perspectives and the most important developments
+    in data and AI delivered to your inbox.
+  </p>
+
+  <a class="button" href="#">
+    Join the Newsletter
+  </a>
+
+</section>
+
+
+<footer>
+
+  <div>
+    © 2026 The Data & AI Boardroom
+  </div>
+
+  <div>
+    dataandaiboardroom.com
+  </div>
+
+</footer>
+
+</body>
+</html>
